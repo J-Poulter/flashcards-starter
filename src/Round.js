@@ -28,8 +28,7 @@ class Round {
   }
 
   endRound() {
-    //***CHANGE THIS TO CONSOLE.LOG WHEN RUNNING GAME!!
-    return `**Round Over!** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
+    console.log(`**Round Over!** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`)
   }
 }
 
